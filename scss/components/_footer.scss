@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: $pale-blue;
+  color: $desaturated-blue;
+  font-size: $font-size-smaller;
+  font-weight: $font-weight-medium;
+
+  a {
+    color: $dark-blue;
+    font-weight: $font-weight-bold;
+  }
+}
